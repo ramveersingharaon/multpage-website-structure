@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: gray;
+    color: white;
+    width: 100vw;
+    height: 80px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+   margin: 10px;
+   list-style: none;
+   line-height: 80px;
+   font-size: 25px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
